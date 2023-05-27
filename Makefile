@@ -1,11 +1,11 @@
 # Formatting
 format-black:
 	@echo Formatting with black ...
-	@black blenderline
+	@black src
 
 format-isort:
 	@echo.
 	@echo Formatting with isort ...
-	@isort blenderline
+	@isort src
 
 format-project: format-black format-isort
