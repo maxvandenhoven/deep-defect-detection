@@ -83,7 +83,7 @@ def kfold_train(
 
     for fold_idx, train_dataloader, valid_dataloader in fold_generator:
         # Create folder to log fold run, such that all models are saved
-        logger = Logger(pathlib.Path(f"runs/{trial_id}/fold_{fold_idx}"))
+        logger = Logger(pathlib.Path(f"runs_kfold/trial{trial_id}/fold_{fold_idx}"))
 
         model = WFDefectDetector(
             kernel_size=kernel_size,
