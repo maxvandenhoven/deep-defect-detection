@@ -47,7 +47,8 @@ def load_dataset(
     # First crop images on the part of interest, then resize to desired resolution.
     transform = transforms.Compose(
         [
-            transforms.CenterCrop(size=(2400, 1200)),
+            # Center crop from support.py scaled up + 300px margin
+            transforms.CenterCrop(size=(2700, 1500)), 
             transforms.Resize(size=resolution),
             *random_transform,
             transforms.ToTensor(),
