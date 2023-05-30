@@ -44,16 +44,9 @@ def load_dataset(
     if random_transform is None:
         random_transform = []
 
-    # First crop images on the part of interest, then resize to desired resolution.
-    transform = transforms.Compose(
-        [
-            # Center crop from support.py scaled up + 300px margin
-            transforms.CenterCrop(size=(2700, 1500)), 
-            transforms.Resize(size=resolution),
-            *random_transform,
-            transforms.ToTensor(),
-        ]
-    )
+    transform = transforms.Compose([transforms.Resize([105, 78]),
+                                    transforms.CenterCrop(size=[60, 30]),
+                                    transforms.ToTensor()])
 
     # Targets/labels are converted to floats for compatibility with model predictions
     target_transform = lambda target: torch.tensor(target, dtype=torch.float32)

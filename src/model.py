@@ -39,7 +39,7 @@ class WFDefectDetector(CustomModuleType):
         # these values fit our general idea for the model
         assert kernel_size_conv in [3, 5, 7]
         assert kernel_size_pool in [2, 3]
-        assert num_base_channels in [8, 16, 32]
+        assert num_base_channels in [4, 8, 16, 32]
         assert num_conv_blocks in [2, 3]
         assert activation in ["tanh", "relu", "leakyrelu"]
         assert optimizer in ["sgd", "rmsprop", "adam"]
