@@ -15,10 +15,10 @@ def kfold_train(
     shuffle: bool = True,
     batch_size: int = 16,
     random_state: int = 42,
-    kernel_size: int = 3,
-    base_channels: int = 16,
+    kernel_size_conv: int = 3,
+    kernel_size_pool: int = 2,
+    num_base_channels: int = 16,
     num_conv_blocks: int = 2,
-    num_fc_features: int = 64,
     activation: str = "relu",
     optimizer: str = "adam",
     learning_rate: float = 0.001,
@@ -41,14 +41,14 @@ def kfold_train(
         shuffle (bool, optional): whether to shuffle data in folds. Defaults to True.
         batch_size (int, optional): batch size of dataloaders. Defaults to 16.
         random_state (int, optional): random state for reproducibility. Defaults to 42.
-        kernel_size (int, optional): kernel size of all convolutional layers in the
+        kernel_size_conv (int, optional): kernel size of all convolutional layers in the
             model. Must be in [3, 5, 7]. Defaults to 3.
-        base_channels (int, optional): number of filters in the first conv layer, which
-            is doubled in subsequent conv layers. Must be in [8, 16, 32] Defaults to 16.
+        kernel_size_pool (int, optional): kernel size of all pooling layers in the
+            model. Must be in [2, 3]. Defaults to 2.
+        num_base_channels (int, optional): number of filters in the first conv layer, 
+        which is doubled in subsequent conv layers. Must be in [8, 16, 32] Defaults to 16.
         num_conv_blocks (int, optional): number of conv-act-pool blocks in the model.
             Must be in [2, 3]. Defaults to 2.
-        num_fc_features (int, optional): number of neurons in the dense layer right after
-            flattening. Defaults to 64.
         activation (str, optional): activation function used everywhere. Must be in
             ["tanh", "relu", "leakyrelu"]. Defaults to "relu".
         optimizer (str, optional): optimizer used for training with default paraeters,
@@ -86,10 +86,10 @@ def kfold_train(
         logger = Logger(pathlib.Path(f"runs_kfold/trial_{trial_id}/fold_{fold_idx}"))
 
         model = WFDefectDetector(
-            kernel_size=kernel_size,
-            base_channels=base_channels,
+            kernel_size_conv=kernel_size_conv,
+            kernel_size_pool=kernel_size_pool,
+            num_base_channels=num_base_channels,
             num_conv_blocks=num_conv_blocks,
-            num_fc_features=num_fc_features,
             activation=activation,
             optimizer=optimizer,
             learning_rate=learning_rate,
