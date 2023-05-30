@@ -45,8 +45,9 @@ def kfold_train(
             model. Must be in [3, 5, 7]. Defaults to 3.
         kernel_size_pool (int, optional): kernel size of all pooling layers in the
             model. Must be in [2, 3]. Defaults to 2.
-        num_base_channels (int, optional): number of filters in the first conv layer, 
-        which is doubled in subsequent conv layers. Must be in [8, 16, 32] Defaults to 16.
+        num_base_channels (int, optional): number of filters in the first conv layer,
+            which is doubled in subsequent conv layers. Must be in [8, 16, 32]. 
+            Defaults to 16.
         num_conv_blocks (int, optional): number of conv-act-pool blocks in the model.
             Must be in [2, 3]. Defaults to 2.
         activation (str, optional): activation function used everywhere. Must be in

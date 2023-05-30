@@ -34,6 +34,7 @@ def load_dataset(
     Args:
         filepath (str): root folder of the dataset.
         resolution (list[int], optional): desired resolution. Defaults to [224, 224].
+            Note: currently unused as we reverted back to the provided support.py code.
         random_trasnform (list[nn.Module]): list of TorchVision transforms that
             randomly augment image (e.g., random flip, rotate, and color augmentations).
 
@@ -44,9 +45,13 @@ def load_dataset(
     if random_transform is None:
         random_transform = []
 
-    transform = transforms.Compose([transforms.Resize([105, 78]),
-                                    transforms.CenterCrop(size=[60, 30]),
-                                    transforms.ToTensor()])
+    transform = transforms.Compose(
+        [
+            transforms.Resize([105, 78]),
+            transforms.CenterCrop(size=[60, 30]),
+            transforms.ToTensor(),
+        ]
+    )
 
     # Targets/labels are converted to floats for compatibility with model predictions
     target_transform = lambda target: torch.tensor(target, dtype=torch.float32)
