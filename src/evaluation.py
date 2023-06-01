@@ -53,3 +53,62 @@ def evaluate_checkpoint(
     # Logging
     print(f"Test loss: {test_loss}")
     print(f"Test accuracy: {test_accuracy}")
+
+
+def find_best_run(base_dir: pathlib.Path) -> pathlib.Path:
+    """Find the best run from k-fold cross-validation according to the validation loss.
+
+    Args:
+        base_dir (pathlib.Path): folder in which to look for folders named "fold_x".
+
+    Returns:
+        pathlib.Path: path to best run.
+    """
+    valid_losses_min = {}
+
+    for log_file in base_dir.glob("**/logs.json"):
+        with open(log_file, "r") as file:
+            log: dict[str, list] = json.load(file)
+
+        valid_loss_min_logs = log.get("valid_loss_min", [])
+
+        if len(valid_loss_min_logs) == 0:
+            continue
+
+        valid_losses_min[log_file.parent] = valid_loss_min_logs[-1]
+
+    return min(valid_losses_min, key=valid_losses_min.get)
+
+
+def find_best_hyperparameters(base_dir: pathlib.Path) -> None:
+    """Find the best trial according to average validation loss from k-fodl validation
+        and print model hyperparameters.
+
+    Args:
+        base_dir (pathlib.Path): folder in which to look for trials.
+    """
+    valid_losses_min = {}
+
+    for log_file in base_dir.glob("**/logs.json"):
+        with open(log_file, "r") as file:
+            log: dict[str, list] = json.load(file)
+
+        valid_loss_min_logs = log.get("valid_loss_min", [])
+
+        if len(valid_loss_min_logs) == 0:
+            continue
+
+        if log_file.parent.parent in valid_losses_min:
+            valid_losses_min[log_file.parent.parent].append(valid_loss_min_logs[-1])
+        else:
+            valid_losses_min[log_file.parent.parent] = [valid_loss_min_logs[-1]]
+
+    for value in valid_losses_min.values():
+        value = sum(value) / len(value)
+
+    best_run_dir = min(valid_losses_min, key=valid_losses_min.get)
+
+    print("Best trial:", best_run_dir)
+
+    with open(best_run_dir / "fold_0" / "hyperparameters.json", "r") as file:
+        print(file.read())

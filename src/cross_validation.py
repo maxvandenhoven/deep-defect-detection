@@ -15,16 +15,12 @@ def kfold_train(
     shuffle: bool = True,
     batch_size: int = 16,
     random_state: int = 42,
-    kernel_size_conv: int = 3,
-    kernel_size_pool: int = 2,
-    num_base_channels: int = 16,
-    num_conv_blocks: int = 2,
-    activation: str = "relu",
-    optimizer: str = "adam",
-    learning_rate: float = 0.001,
     max_epochs: int = 25,
     patience: int = 3,
     device: str = "cuda",
+    log_folder: pathlib.Path = None,
+    trial_id: str = None,
+    **model_kwargs,
 ) -> float:
     """Use K-fold cross-validation to evaluate the performance of a set of
         hyperparameters. Performance is calculated by averaging the best validation
@@ -41,33 +37,27 @@ def kfold_train(
         shuffle (bool, optional): whether to shuffle data in folds. Defaults to True.
         batch_size (int, optional): batch size of dataloaders. Defaults to 16.
         random_state (int, optional): random state for reproducibility. Defaults to 42.
-        kernel_size_conv (int, optional): kernel size of all convolutional layers in the
-            model. Must be in [3, 5, 7]. Defaults to 3.
-        kernel_size_pool (int, optional): kernel size of all pooling layers in the
-            model. Must be in [2, 3]. Defaults to 2.
-        num_base_channels (int, optional): number of filters in the first conv layer,
-            which is doubled in subsequent conv layers. Must be in [8, 16, 32]. 
-            Defaults to 16.
-        num_conv_blocks (int, optional): number of conv-act-pool blocks in the model.
-            Must be in [2, 3]. Defaults to 2.
-        activation (str, optional): activation function used everywhere. Must be in
-            ["tanh", "relu", "leakyrelu"]. Defaults to "relu".
-        optimizer (str, optional): optimizer used for training with default paraeters,
-            except for learning rate. Must be in ["sgd", "rmsprop", "adam"]. Defaults to
-            "adam".
-        learning_rate (float, optional): learning rate. Defaults to 0.001.
         max_epochs (int, optional): maximum number of epochs to train. Defaults to 25.
-        patience (int, optional): within how many epochs teh validation loss must
+        patience (int, optional): within how many epochs the validation loss must
             improve before terminating optimization. Defaults to 3.
         device (str, optional): accelerator device to use. Defaults to "cuda".
+        log_folder (pathlib.Path, optional): overwrite default random log folder.
+        **model_kwargs: keyword arguments passed to the model
 
     Returns:
         float: best validation loss after training.
     """
     # Generate random ID for the trial. KSUIDs are used so that trials are sorted by
     # creation time automatically in file explorers
-    trial_id = ksuid()
+    if trial_id is None:
+        trial_id = f"trial_{ksuid()}"
     print(f"Trial ID: {trial_id}")
+
+    # Determine folder to log model to. Note that trial ID does not necessarily need to
+    # correspond with the logging folder
+    if log_folder is None:
+        log_folder = "runs_kfold"
+    base_log_folder = pathlib.Path(f"{log_folder}/{trial_id}")
 
     # Create fold generator to output sets of training and valid dataloaders corresponding
     # to folds obtained from stratified splitting on the image targets
@@ -84,17 +74,9 @@ def kfold_train(
 
     for fold_idx, train_dataloader, valid_dataloader in fold_generator:
         # Create folder to log fold run, such that all models are saved
-        logger = Logger(pathlib.Path(f"runs_kfold/trial_{trial_id}/fold_{fold_idx}"))
+        logger = Logger(base_log_folder / f"fold_{fold_idx}")
 
-        model = WFDefectDetector(
-            kernel_size_conv=kernel_size_conv,
-            kernel_size_pool=kernel_size_pool,
-            num_base_channels=num_base_channels,
-            num_conv_blocks=num_conv_blocks,
-            activation=activation,
-            optimizer=optimizer,
-            learning_rate=learning_rate,
-        )
+        model = WFDefectDetector(**model_kwargs)
 
         valid_loss_min = train(
             model=model,
