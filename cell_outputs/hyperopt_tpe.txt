@@ -1,0 +1,362 @@
+Trial ID: trial_110be71fb9791f2557dcbf93652fca926cee7688
+  Fold 0 best valid loss: 0.5716480165719986          
+  Fold 1 best valid loss: 0.38951949402689934         
+  Fold 2 best valid loss: 0.46418362855911255         
+  Fold 3 best valid loss: 0.4968934506177902          
+  Fold 4 best valid loss: 0.2431478351354599          
+  Average best valid loss: 0.4330784849822521         
+Trial ID: trial_110beb1715a6bc30bad8ffee688cbbfe15a61a6d                             
+  Fold 0 best valid loss: 0.6901668459177017                                         
+  Fold 1 best valid loss: 0.6926805377006531                                         
+  Fold 2 best valid loss: 0.6846327036619186                                         
+  Fold 3 best valid loss: 0.6908605098724365                                         
+  Fold 4 best valid loss: 0.6927233189344406                                         
+  Average best valid loss: 0.6902127832174301                                        
+Trial ID: trial_110bef86377fac2ef4b85dd5389be058615f3778                             
+  Fold 0 best valid loss: 46.875                                                     
+  Fold 1 best valid loss: 45.83333396911621                                          
+  Fold 2 best valid loss: 45.83333396911621                                          
+  Fold 3 best valid loss: 45.83333396911621                                          
+  Fold 4 best valid loss: 45.83333396911621                                          
+  Average best valid loss: 46.04166717529297                                         
+Trial ID: trial_110bf0ef96debf3b0756d00f5d9558bf268f6fea                             
+  Fold 0 best valid loss: 0.3086196482181549                                       
+  Fold 1 best valid loss: 0.48840053379535675                                      
+  Fold 2 best valid loss: 0.4147108718752861                                       
+  Fold 3 best valid loss: 0.7096718698740005                                       
+  Fold 4 best valid loss: 0.6975228935480118                                       
+  Average best valid loss: 0.523785163462162                                       
+Trial ID: trial_110bf3b09c0ec0b4b6c3e99e23db722a41221a81                           
+  Fold 0 best valid loss: 2.6100603342056274                                       
+  Fold 1 best valid loss: 2.0453401955310255                                       
+  Fold 2 best valid loss: 2.6044301986694336                                       
+  Fold 3 best valid loss: 2.164075546665117                                        
+  Fold 4 best valid loss: 1.8096176981925964                                         
+  Average best valid loss: 2.24670479465276                                          
+Trial ID: trial_110bf5a7eae7d832e3be2a95e7df3b6c03f875fe                             
+  Fold 0 best valid loss: 1.1446398943662643                                         
+  Fold 1 best valid loss: 0.7182541489601135                                         
+  Fold 2 best valid loss: 0.44266089610755444                                        
+  Fold 3 best valid loss: 0.6801609918475151                                         
+  Fold 4 best valid loss: 0.36539289355278015                                        
+  Average best valid loss: 0.6702217649668455                                        
+Trial ID: trial_110bf888c811fbff85fdcc798946d06dd80a0ff5                             
+  Fold 0 best valid loss: 46.875                                                     
+  Fold 1 best valid loss: 48.95833396911621                                          
+  Fold 2 best valid loss: 48.95833396911621                                          
+  Fold 3 best valid loss: 25.359117031097412                                         
+  Fold 4 best valid loss: 27.464528560638428                                         
+  Average best valid loss: 39.52306270599365                                         
+Trial ID: trial_110bfa47f7e5148fe6fe5e2ed318a7cb02ae241a                             
+  Fold 0 best valid loss: 0.6841486692428589                                         
+  Fold 1 best valid loss: 0.6905436366796494                                         
+  Fold 2 best valid loss: 0.6888560205698013                                         
+  Fold 3 best valid loss: 0.6929042488336563                                         
+  Fold 4 best valid loss: 0.6852568686008453                                         
+  Average best valid loss: 0.6883418887853623                                        
+Trial ID: trial_110bff2c33ff6f55435973b6f83f0817df1aea6f                             
+  Fold 0 best valid loss: 0.690653994679451                                          
+  Fold 1 best valid loss: 0.6193152815103531                                         
+  Fold 2 best valid loss: 0.3862079381942749                                         
+  Fold 3 best valid loss: 0.44430556520819664                                        
+  Fold 4 best valid loss: 0.6914189606904984                                         
+  Average best valid loss: 0.5663803480565548                                        
+Trial ID: trial_110c01db3cf57d033c7f1f7a005158524c73adec                             
+  Fold 0 best valid loss: 0.6911974847316742                                         
+  Fold 1 best valid loss: 0.6815730184316635                                         
+  Fold 2 best valid loss: 0.4841301366686821                                         
+  Fold 3 best valid loss: 0.6896675527095795                                         
+  Fold 4 best valid loss: 0.6925105601549149                                         
+  Average best valid loss: 0.6478157505393028                                        
+Trial ID: trial_110c03de96386fbde573f37cc7f73a1c450a5009                              
+  Fold 0 best valid loss: 0.6904246807098389                                          
+  Fold 1 best valid loss: 0.6907519698143005                                          
+  Fold 2 best valid loss: 0.6905693262815475                                          
+  Fold 3 best valid loss: 0.6906666606664658                                          
+  Fold 4 best valid loss: 0.6897362768650055                                          
+  Average best valid loss: 0.6904297828674316                                         
+Trial ID: trial_110c061c7e13de6d5cd601161ff623457d264a5b                              
+  Fold 0 best valid loss: 0.6920103877782822                                          
+  Fold 1 best valid loss: 0.691902682185173                                           
+  Fold 2 best valid loss: 0.6908425092697144                                          
+  Fold 3 best valid loss: 0.6920809596776962                                          
+  Fold 4 best valid loss: 0.6875807493925095                                          
+  Average best valid loss: 0.690883457660675                                          
+Trial ID: trial_110c08f0b338632ab36afccdb968bc7947168978                              
+  Fold 0 best valid loss: 43.75                                                       
+  Fold 1 best valid loss: 0.8609975725412369                                          
+  Fold 2 best valid loss: 0.9110172986984253                                          
+  Fold 3 best valid loss: 40.625                                                      
+  Fold 4 best valid loss: 40.625                                                      
+  Average best valid loss: 25.354402974247932                                         
+Trial ID: trial_110c0aa61d557c030a4335715d1598b3313689ce                              
+  Fold 0 best valid loss: 0.3977680206298828                                          
+  Fold 1 best valid loss: 0.3835016191005707                                          
+  Fold 2 best valid loss: 0.6530386507511139                                          
+  Fold 3 best valid loss: 0.45026707276701927                                         
+  Fold 4 best valid loss: 0.2875900864601135                                          
+  Average best valid loss: 0.43443308994174                                           
+Trial ID: trial_110c0dbef56f3e7af83456299690b20e66b3025a                              
+  Fold 0 best valid loss: 0.6792297959327698                                          
+  Fold 1 best valid loss: 0.6926441639661789                                          
+  Fold 2 best valid loss: 0.689642071723938                                           
+  Fold 3 best valid loss: 0.6892905831336975                                          
+  Fold 4 best valid loss: 0.6706152558326721                                          
+  Average best valid loss: 0.6842843741178513                                         
+Trial ID: trial_110c1312c0ae4e2bc602fea57a0536c3075556b6                              
+  Fold 0 best valid loss: 0.5200660675764084                                          
+  Fold 1 best valid loss: 0.435847207903862                                           
+  Fold 2 best valid loss: 0.5095856636762619                                          
+  Fold 3 best valid loss: 0.5711259320378304                                          
+  Fold 4 best valid loss: 0.4328656941652298                                          
+  Average best valid loss: 0.4938981130719185                                         
+Trial ID: trial_110c15caa9380e8aba3653d79a186843149d41be                              
+  Fold 0 best valid loss: 43.75                                                       
+  Fold 1 best valid loss: 23.548190593719482                                          
+  Fold 2 best valid loss: 48.95833396911621                                           
+  Fold 3 best valid loss: 48.95833396911621                                           
+  Fold 4 best valid loss: 40.625                                                      
+  Average best valid loss: 41.16797170639038                                          
+Trial ID: trial_110c17c1466ebfff91e7be7e321723a95c5c78ab                              
+  Fold 0 best valid loss: 0.6899108588695526                                          
+  Fold 1 best valid loss: 0.6854504346847534                                          
+  Fold 2 best valid loss: 0.6850834339857101                                          
+  Fold 3 best valid loss: 0.688959389925003                                           
+  Fold 4 best valid loss: 0.6778787821531296                                          
+  Average best valid loss: 0.6854565799236297                                         
+Trial ID: trial_110c1a925b384374866de1107338f445839aa2c6                              
+  Fold 0 best valid loss: 0.7986564487218857                                          
+  Fold 1 best valid loss: 48.95833396911621                                           
+  Fold 2 best valid loss: 0.6923409402370453                                          
+  Fold 3 best valid loss: 0.6544847637414932                                          
+  Fold 4 best valid loss: 0.7520895004272461                                          
+  Average best valid loss: 10.371181124448777                                         
+Trial ID: trial_110c1c25d692ec2041a01ddb14d05179af56f876                              
+  Fold 0 best valid loss: 0.6926406621932983                                          
+  Fold 1 best valid loss: 48.95833396911621                                           
+  Fold 2 best valid loss: 0.6928026080131531                                          
+  Fold 3 best valid loss: 0.6921942830085754                                          
+  Fold 4 best valid loss: 0.22386674210429192                                         
+  Average best valid loss: 10.251967652887107                                         
+Trial ID: trial_110c1f16b14ebb03d5ca74e275b7fbbd51f9f9bd                              
+  Fold 0 best valid loss: 0.5308776125311852                                          
+  Fold 1 best valid loss: 0.5950812622904778                                          
+  Fold 2 best valid loss: 0.6157963573932648                                          
+  Fold 3 best valid loss: 0.5396181344985962                                          
+  Fold 4 best valid loss: 0.509156659245491                                           
+  Average best valid loss: 0.558106005191803                                          
+Trial ID: trial_110c289fee7806170439389d40de5885ddbbd23f                               
+  Fold 0 best valid loss: 0.2981855385005474                                           
+  Fold 1 best valid loss: 0.381931871175766                                            
+  Fold 2 best valid loss: 0.4579857140779495                                           
+  Fold 3 best valid loss: 0.31603056751191616                                          
+  Fold 4 best valid loss: 0.3265627399086952                                           
+  Average best valid loss: 0.3561392862349749                                          
+Trial ID: trial_110c2f3ac39716a493d3175b36c0b644856ce5ed                                
+  Fold 0 best valid loss: 0.43561091274023056                                           
+  Fold 1 best valid loss: 0.44930556416511536                                           
+  Fold 2 best valid loss: 0.426938496530056                                             
+  Fold 3 best valid loss: 0.6747186779975891                                            
+  Fold 4 best valid loss: 0.29423772171139717                                           
+  Average best valid loss: 0.45616227462887765                                          
+Trial ID: trial_110c3287aaa91acbbbbfae215f3413a760bab2b3                                
+  Fold 0 best valid loss: 0.37301865965127945                                          
+  Fold 1 best valid loss: 0.41541313752532005                                          
+  Fold 2 best valid loss: 0.3561311736702919                                           
+  Fold 3 best valid loss: 0.30887090787291527                                          
+  Fold 4 best valid loss: 0.35358188301324844                                          
+  Average best valid loss: 0.361403152346611                                           
+Trial ID: trial_110c379cf567f284aaae5d84d0e085c8906325da                               
+  Fold 0 best valid loss: 0.3584555312991142                                           
+  Fold 1 best valid loss: 0.4802977591753006                                           
+  Fold 2 best valid loss: 0.4214708376675844                                           
+  Fold 3 best valid loss: 0.618655189871788                                            
+  Fold 4 best valid loss: 0.17043208330869675                                          
+  Average best valid loss: 0.4098622802644968                                          
+Trial ID: trial_110c3ca9c8dc89181a9326e4d406e20f28e61a90                               
+  Fold 0 best valid loss: 0.3215235061943531                                           
+  Fold 1 best valid loss: 0.4993039071559906                                           
+  Fold 2 best valid loss: 0.5794874206185341                                           
+  Fold 3 best valid loss: 0.3350216820836067                                           
+  Fold 4 best valid loss: 0.18160841887583956                                          
+  Average best valid loss: 0.3833889869856648                                          
+Trial ID: trial_110c3fe538133eed21b13b4f4da34685d3293f13                               
+  Fold 0 best valid loss: 50.0                                                         
+  Fold 1 best valid loss: 48.95833396911621                                            
+  Fold 2 best valid loss: 43.75                                                        
+  Fold 3 best valid loss: 45.83333396911621                                            
+  Fold 4 best valid loss: 29.49980640411377                                            
+  Average best valid loss: 43.60829486846924                                           
+Trial ID: trial_110c41af485faaf4d569e8315c09289116896fbd                               
+  Fold 0 best valid loss: 0.47694898396730423                                         
+  Fold 1 best valid loss: 0.47252044826745987                                         
+  Fold 2 best valid loss: 0.3862159103155136                                          
+  Fold 3 best valid loss: 0.5525370761752129                                          
+  Fold 4 best valid loss: 0.23670079931616783                                         
+  Average best valid loss: 0.42498464360833166                                        
+Trial ID: trial_110c494e4f4773d96d6bd3480e6e55c3207bb22f                               
+  Fold 0 best valid loss: 0.28119219094514847                                          
+  Fold 1 best valid loss: 0.5094399079680443                                           
+  Fold 2 best valid loss: 0.4427822642028332                                           
+  Fold 3 best valid loss: 0.536555353552103                                            
+  Fold 4 best valid loss: 0.3741181790828705                                           
+  Average best valid loss: 0.4288175791501999                                          
+Trial ID: trial_110c4bec562d5d991771fbbca0c59060ab9b8a62                               
+  Fold 0 best valid loss: 0.38260919228196144                                          
+  Fold 1 best valid loss: 0.5114046782255173                                           
+  Fold 2 best valid loss: 0.6915240287780762                                           
+  Fold 3 best valid loss: 0.43602247536182404                                          
+  Fold 4 best valid loss: 0.5266595259308815                                           
+  Average best valid loss: 0.509643980115652                                           
+Trial ID: trial_110c4e2168c7bc335ea786092edb1e61473dd638                               
+  Fold 0 best valid loss: 0.4854557514190674                                          
+  Fold 1 best valid loss: 0.48143254965543747                                         
+  Fold 2 best valid loss: 0.6197319775819778                                          
+  Fold 3 best valid loss: 0.01481504939874867                                         
+  Fold 4 best valid loss: 0.6503813564777374                                          
+  Average best valid loss: 0.45036333690659375                                        
+Trial ID: trial_110c515fc36bfe3b13c68b6ce50068709fc5d860                              
+  Fold 0 best valid loss: 0.36231403425335884                                         
+  Fold 1 best valid loss: 0.42355547845363617                                         
+  Fold 2 best valid loss: 0.4287080317735672                                          
+  Fold 3 best valid loss: 0.5471421629190445                                          
+  Fold 4 best valid loss: 0.39188460260629654                                         
+  Average best valid loss: 0.43072086200118065                                        
+Trial ID: trial_110c57b1d3904a5ff3e2cd3e466c68b74d41b5af                               
+  Fold 0 best valid loss: 43.75                                                        
+  Fold 1 best valid loss: 48.95833396911621                                            
+  Fold 2 best valid loss: 48.95833396911621                                            
+  Fold 3 best valid loss: 51.04166793823242                                            
+  Fold 4 best valid loss: 45.83333396911621                                            
+  Average best valid loss: 47.70833396911621                                           
+Trial ID: trial_110c5936b72d1c217f2f17a172cd03f618ebd6b8                               
+  Fold 0 best valid loss: 0.6791439279913902                                          
+  Fold 1 best valid loss: 0.2207115152850747                                          
+  Fold 2 best valid loss: 0.3275817546527833                                          
+  Fold 3 best valid loss: 0.5414496958255768                                          
+  Fold 4 best valid loss: 0.37330634891986847                                         
+  Average best valid loss: 0.4284386485349387                                         
+Trial ID: trial_110c5d6394e8c5f758fe301aa69fc350b8597cfb                              
+  Fold 0 best valid loss: 0.6918692141771317                                          
+  Fold 1 best valid loss: 0.6908034831285477                                          
+  Fold 2 best valid loss: 0.6921103894710541                                          
+  Fold 3 best valid loss: 0.691620483994484                                           
+  Fold 4 best valid loss: 0.6928527355194092                                          
+  Average best valid loss: 0.6918512612581253                                         
+Trial ID: trial_110c5f3b4b03135490edc7e2283c927715178082                              
+  Fold 0 best valid loss: 50.0                                                        
+  Fold 1 best valid loss: 48.95833396911621                                           
+  Fold 2 best valid loss: 40.625                                                      
+  Fold 3 best valid loss: 45.83333396911621                                           
+  Fold 4 best valid loss: 40.625                                                      
+  Average best valid loss: 45.208333587646486                                         
+Trial ID: trial_110c6118b187757193c68228de91cc6b62f9c477                              
+  Fold 0 best valid loss: 0.42808448523283005                                         
+  Fold 1 best valid loss: 0.5261687114834785                                          
+  Fold 2 best valid loss: 0.4220673069357872                                          
+  Fold 3 best valid loss: 0.4990674704313278                                          
+  Fold 4 best valid loss: 0.20202592015266418                                         
+  Average best valid loss: 0.41548277884721757                                        
+Trial ID: trial_110c68fc1300a0ccd2a70a7b8b5048656f57bb59                               
+  Fold 0 best valid loss: 0.28527968376874924                                          
+  Fold 1 best valid loss: 0.4281073808670044                                           
+  Fold 2 best valid loss: 0.31670933961868286                                          
+  Fold 3 best valid loss: 0.5789556056261063                                           
+  Fold 4 best valid loss: 0.33148910477757454                                          
+  Average best valid loss: 0.38810822293162345                                         
+Trial ID: trial_110c6c79d6043816ae1b456378210d7f264cda12                               
+  Fold 0 best valid loss: 0.4219980835914612                                           
+  Fold 1 best valid loss: 0.40470656007528305                                          
+  Fold 2 best valid loss: 0.44777845591306686                                          
+  Fold 3 best valid loss: 0.6202711313962936                                           
+  Fold 4 best valid loss: 0.42172086238861084                                          
+  Average best valid loss: 0.4632950186729431                                          
+Trial ID: trial_110c71f93bd8a6e9f3c2313d18a36ef4aa3e23e9                               
+  Fold 0 best valid loss: 46.875                                                       
+  Fold 1 best valid loss: 48.95833396911621                                            
+  Fold 2 best valid loss: 48.95833396911621                                            
+  Fold 3 best valid loss: 48.95833396911621                                            
+  Fold 4 best valid loss: 43.75                                                        
+  Average best valid loss: 47.500000381469725                                          
+Trial ID: trial_110c737bdaf36560c3db20ed9f48c11650cda100                               
+  Fold 0 best valid loss: 0.6894416213035583                                          
+  Fold 1 best valid loss: 0.6911928057670593                                           
+  Fold 2 best valid loss: 0.6913756281137466                                           
+  Fold 3 best valid loss: 0.6902915090322495                                           
+  Fold 4 best valid loss: 0.6870312243700027                                           
+  Average best valid loss: 0.6898665577173233                                          
+Trial ID: trial_110c792826bec0ad463ca1378632f72c47b0406b                                
+  Fold 0 best valid loss: 0.3862999826669693                                            
+  Fold 1 best valid loss: 0.6270800828933716                                            
+  Fold 2 best valid loss: 0.5540025532245636                                            
+  Fold 3 best valid loss: 0.5267112031579018                                            
+  Fold 4 best valid loss: 0.10706726834177971                                           
+  Average best valid loss: 0.4402322180569172                                           
+Trial ID: trial_110c7c23b150b1536169a5f4846aa3e68a101a40                                
+  Fold 0 best valid loss: 0.6921587437391281                                           
+  Fold 1 best valid loss: 0.6914942711591721                                           
+  Fold 2 best valid loss: 0.691850870847702                                            
+  Fold 3 best valid loss: 0.691798985004425                                            
+  Fold 4 best valid loss: 0.691937044262886                                            
+  Average best valid loss: 0.6918479830026627                                          
+Trial ID: trial_110c7e49f24e12159f0817031cc7c5f0dfdf9916                               
+  Fold 0 best valid loss: 46.875                                                       
+  Fold 1 best valid loss: 48.95833396911621                                            
+  Fold 2 best valid loss: 48.95833396911621                                            
+  Fold 3 best valid loss: 40.625                                                       
+  Fold 4 best valid loss: 45.83333396911621                                            
+  Average best valid loss: 46.250000381469725                                          
+Trial ID: trial_110c7ffbee98ed27d2b48f7d376479490709a292                               
+  Fold 0 best valid loss: 0.4489782452583313                                           
+  Fold 1 best valid loss: 0.4701724424958229                                           
+  Fold 2 best valid loss: 0.5710407495498657                                           
+  Fold 3 best valid loss: 0.47069622948765755                                          
+  Fold 4 best valid loss: 0.17128095962107182                                          
+  Average best valid loss: 0.42643372528254986                                         
+Trial ID: trial_110c83cd47ce1d65fd4b46c5ca3fd41f1c51481f                               
+  Fold 0 best valid loss: 0.3060081510921009                                           
+  Fold 1 best valid loss: 0.48552433401346207                                          
+  Fold 2 best valid loss: 0.3580486848950386                                           
+  Fold 3 best valid loss: 0.41536376997828484                                          
+  Fold 4 best valid loss: 0.18034384679049253                                          
+  Average best valid loss: 0.3490577573538758                                          
+Trial ID: trial_110c873c8e9ef2813aa863c62b11c6f18b68bc86                               
+  Fold 0 best valid loss: 0.6930306106805801                                         
+  Fold 1 best valid loss: 0.6928212493658066                                         
+  Fold 2 best valid loss: 0.6924115270376205                                         
+  Fold 3 best valid loss: 0.6919955611228943                                         
+  Fold 4 best valid loss: 0.6928030401468277                                         
+  Average best valid loss: 0.6926123976707459                                        
+Trial ID: trial_110c8a1b35eeb0e73b1fa78acb4b93a1ab4b7351                             
+  Fold 0 best valid loss: 0.6796765327453613                                         
+  Fold 1 best valid loss: 43.75                                                      
+  Fold 2 best valid loss: 48.95833396911621                                          
+  Fold 3 best valid loss: 0.5091702342033386                                         
+  Fold 4 best valid loss: 51.04166793823242                                          
+  Average best valid loss: 28.987769734859466                                        
+Trial ID: trial_110c8c4b8f04c7dc2e0e3f2d50fe1df71d11aac0                             
+  Fold 0 best valid loss: 0.38083990663290024                                        
+  Fold 1 best valid loss: 0.4637754485011101                                         
+  Fold 2 best valid loss: 0.43348387256264687                                        
+  Fold 3 best valid loss: 0.5711796134710312                                         
+  Fold 4 best valid loss: 0.31323688104748726                                        
+  Average best valid loss: 0.4325031444430351                                        
+Trial ID: trial_110c8f135acd319f11684ab962f242881be7afd4                             
+  Fold 0 best valid loss: 0.32986754179000854                                        
+  Fold 1 best valid loss: 0.6839659214019775                                         
+  Fold 2 best valid loss: 0.3069530576467514                                         
+  Fold 3 best valid loss: 0.18731375224888325                                        
+  Fold 4 best valid loss: 0.4548647850751877                                         
+  Average best valid loss: 0.39259301163256166                                       
+100%|██████████| 50/50 [12:10:14<00:00, 876.30s/trial, best loss: 0.3490577573538758]
+Best hyperparameters:
+Best trial: runs_hyperopt_tpe\trial_110c494e4f4773d96d6bd3480e6e55c3207bb22f
+{
+    "kernel_size_conv": 7,
+    "kernel_size_pool": 2,
+    "num_base_channels": 32,
+    "num_conv_blocks": 3,
+    "activation": "leakyrelu",
+    "optimizer": "adam",
+    "learning_rate": 0.0010540090869144382
+}
